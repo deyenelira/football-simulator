@@ -76,7 +76,7 @@ int main(int argc, char const *argv[]){
 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::W)) envia[0] = codigoAleatorio;
 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) envia[0] = codigoStop;
 
-		send(sock , envia, 1, 0 ); 
+	send(sock , envia, 1, 0 ); 
     }
 
 	return 0; 
