@@ -73,8 +73,8 @@ int main(int argc, char const *argv[]){
 		}else envia[0] = log;
 
         if(sf::Keyboard::isKeyPressed(sf::Keyboard::Q)) envia[0] = codigoRetorno;
-		if(sf::Keyboard::isKeyPressed(sf::Keyboard::W)) envia[0] = codigoAleatorio;
-		if(sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) envia[0] = codigoStop;
+	if(sf::Keyboard::isKeyPressed(sf::Keyboard::W)) envia[0] = codigoAleatorio;
+	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) envia[0] = codigoStop;
 
 		send(sock , envia, 1, 0 ); 
     }
