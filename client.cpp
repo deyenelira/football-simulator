@@ -63,14 +63,14 @@ int main(int argc, char const *argv[]){
         }
 		
         if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)){
-			envia[0]=direita;
-		}else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)){
-			envia[0]=esquerda;
-		}else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up)){
-			envia[0]=cima;
-		}else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down)){
-			envia[0]=baixo;
-		}else envia[0] = log;
+		envia[0]=direita;
+	}else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)){
+		envia[0]=esquerda;
+	}else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up)){
+		envia[0]=cima;
+	}else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down)){
+		envia[0]=baixo;
+	}else envia[0] = log;
 
         if(sf::Keyboard::isKeyPressed(sf::Keyboard::Q)) envia[0] = codigoRetorno;
 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::W)) envia[0] = codigoAleatorio;
