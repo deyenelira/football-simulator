@@ -14,6 +14,7 @@ g++ client.o -o client -lsfml-graphics -lsfml-window -lsfml-system
 ./client
 
  -> Comandos:
+ 
  'Z' = ativa a movimentação do jogador Aa (time amarelo)
  
  'X' = ativa a movimentação do jogador Ab (time amarelo)
