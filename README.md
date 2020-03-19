@@ -1,5 +1,5 @@
 # Projeto_maracatronics
-Simulador de futebol desenvolvido para o processo seletivo do Maracatronics-UFPE
+Simulador de futebol desenvolvido usando a biblioteca SFML e C++ para o processo seletivo do Maracatronics-UFPE
 
 -> Compilação: 
 
