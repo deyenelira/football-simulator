@@ -4,7 +4,7 @@ Simulador de futebol desenvolvido para o processo seletivo do Maracatronics-UFPE
 -> Compilação: 
 
 compilando a server.cpp: 
-g++ -c server.cp 
+g++ -c server.cpp 
 g++ server.o -o server -lsfml-graphics -lsfml-window -lsfml-system
 ./server
 
